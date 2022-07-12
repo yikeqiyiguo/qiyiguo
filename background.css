@@ -1,0 +1,144 @@
+*{
+
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  background-color: #EFEEEE;
+  -moz-user-select:none;
+  -khtml-user-select:none;
+  user-select:none;
+}
+
+
+.backgroundBox1 {
+  background-color: inherit;
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  margin-left: -300px;
+  top: 50%;
+  margin-top: -200px;
+}
+/*定位*/
+.backgroundBox2 {
+  background-color: inherit;
+  width: inherit;
+  height: inherit;
+  position: relative;
+}
+
+
+
+#backgroundFormStyle {
+  position: relative;
+  height: 20%;
+  width: inherit;
+
+}
+.backgoundFormStyle.text{
+    font-size: 15px;
+    color: black;
+}
+#searchForm {
+  position: absolute;
+  width: 500px;
+  height: 50px;
+  
+  top: 40%;
+  margin-top: -20px;
+  left: 50%;
+  margin-left: -250px;
+  
+  border-radius: 20px;
+  
+
+  
+  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2),
+   -12px -12px 20px rgb(123, 139, 120,0.4);
+}
+#searchInput {
+  width: 90%;
+  height: inherit;
+  margin-left: 20px;
+  background-color: inherit;
+  outline: none;
+}
+#confirmInput {
+  width: 5%;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  position: absolute;
+  right: 10;
+  top: 50%;
+  margin-top: -10px;
+  border-radius: 50%;
+  border-color: black;
+  border-width: thick;
+  border-style: solid;
+  outline: none;
+}
+#confirmInput:hover {
+  cursor: pointer;
+}
+
+
+
+
+.BackBoxAll {
+  position: absolute;
+  left: 50%;
+  margin-left: -240px;
+  bottom: 0;
+  width: 480px;
+  height: 45%;
+}
+.BackBoxAll>a {
+  background-color: inherit;
+  position: relative;
+  float: left;
+  width: 45px;
+  height: 45px;
+  margin: 20px;
+  border-radius: 20%;
+  box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: all .2s ease;
+}
+.BackBoxAll>a img {
+  /* 图片*/
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 60%;
+  margin-top: -35px;
+  left: 70%;
+  margin-left: -23px;
+}
+.BackBox>div {
+  /* 文本 */
+  position: absolute;
+  width: 40px;
+  bottom: 8px;
+  top:60%;
+  left: 60%;
+  margin-left: -25px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.BackBox>div p {
+  color: #ffffff;
+  font-size: 15px;
+}
+
+
+.BackBoxAll>a:hover {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2),
+   0px 0px 0px rgb(123, 124, 102),
+  12px 12px 20px rgba(0, 0, 0, 0.2) inset,
+   -12px -12px 20px rgb(255, 255, 255) inset;
+}
+

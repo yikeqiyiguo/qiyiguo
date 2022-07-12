@@ -1,0 +1,83 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>奇异果🥝起始页</title>
+    <link rel="stylesheet" href="background.css" type="text/css">
+  </head>
+
+  <!--网页背景-->
+  <style type="text/css">
+    *{
+      padding: 0;
+      margin: 0;
+
+    }
+    .backgroundFormStyle{
+      height:100vh;
+      background:url('./sucai/xieguang.jpg');
+      background-size: 100% 100%;
+      background-color: rgba(red, green, blue, 0.5);
+    } 
+  </style>
+
+
+
+
+  <body>    
+      <!--基础的百度搜索-->
+        <div class="backgroundFormStyle">
+          <form action="https://www.baidu.com.cn/s" method="get" target="_parent" id="searchForm">
+            <input type="hidden" name="hiddenInput" value="3"/>
+            <input type="text" name="wd" placeholder="输入你想要的网址" id="searchInput" autocomplete="off"/>
+
+            <input type="submit" value="" id="confirmInput"/>
+          </form>
+        </div>
+        <!--不同的按钮-->
+        <div class="BackBoxAll">    
+          <a class="BackBox" href="https://www.bilibili.com/">
+           <img src="./sucai/bilibili.png">
+            <div>
+              <p>bilibili</p>
+            </div>
+          </a>
+          <a class="BackBox" href="https://github.com/">
+          <img src="./sucai/github.png">
+            <div>
+              <p>github</p>
+            </div>
+          </a>
+          <a class="BackBox" href="https://www.csdn.net/">
+           <img src="./sucai/csdn.png">
+            <div>
+              <p>csdn</p>
+            </div>
+          </a>
+         
+          <a class="BackBox" href="https://leetcode-cn.com/">
+            <img src="./sucai/leetcode.png">
+            <div>
+              <p>LeetCode</p>
+            </div>
+          </a> 
+
+          <a class="BackBox" href="https://www.agemys.com/">
+            <img src="./sucai/AGE.png">
+              <div>
+                  <p>AGE</p>
+              </div>
+          </a>
+
+
+         
+        </div>
+      
+
+      
+      </div>
+    </div>
+    
+    
+  
+  </body>
+</html>
